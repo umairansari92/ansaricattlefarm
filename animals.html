@@ -232,13 +232,27 @@
         </div>
     </footer>
     <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
-    <df-messenger
-      intent="WELCOME"
-      chat-title="Cow-Booking"
-      agent-id="6c6242f3-a040-454e-9560-969aed201c28"
-      language-code="en"
-    ></df-messenger>
-        <script src="script.js"></script>
+    
+ <style>
+        df-messenger {
+         --df-messenger-bot-message: #ceebb7;
+         --df-messenger-button-titlebar-color: #818171;
+         --df-messenger-button-titlebar-font-color: #fcffbd;
+         --df-messenger-chat-background-color: #b3b3a7;
+         --df-messenger-font-color: rgb(0, 0, 0);
+         --df-messenger-send-icon: #99ab99;
+         --df-messenger-user-message: #9dd0e5;
+        }
+      </style>
+        <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+        <df-messenger
+              chat-icon="https://firebasestorage.googleapis.com/v0/b/cow-booking-nwcb.appspot.com/o/logo.jpeg?alt=media&token=5825cbea-b15a-4d93-b82c-90eef1157968"
+              intent="WELCOME"
+              chat-title="Ansari Cattle Farm"
+              agent-id="6c6242f3-a040-454e-9560-969aed201c28"
+              language-code="en"
+        ></df-messenger>
+    <script src="script.js"></script>
     </body>
     </html>
     
