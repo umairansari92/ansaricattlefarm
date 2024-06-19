@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ansari's Cattle Farm</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <div class="title">
+        <h1>Ansari's Cattle Farm</h1>
+        <p>Your Online Solution for Sacrifice Animals</p>
+    </div>
+    <header>
+        <div class="topnav">
+            <img src="your-logo.png" alt="Logo">
+            <div class="menu-icon" id="menu-icon">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        <div class="container-2">
+            <div class="header-content">
+                <nav class="topnav">
+                    <div>
+                        <img src="Images/logo.jpeg" alt="Ansari's Cattle Farm">
+                    </div>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="animals.html">Animals</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+
+                </nav>
+            </div>
+        </div>
+    </header>
+
+   
+    <!-- Main Content -->
+    <main>
+        <section class="contact-section">
+            <div class="container">
+                <h1>Contact Us</h1>
+                <div class="contact-container">
+                    <div class="contact-form">
+                        <form action="submit_form.php" method="post">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="cow_type">Cow Type</label>
+                                <input type="text" id="cow_type" name="cow_type" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="budget">Budget</label>
+                                <input type="text" id="budget" name="budget" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="address">Address</label>
+                                <input type="text" id="address" name="address" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="mobile">Mobile Number</label>
+                                <input type="tel" id="mobile" name="mobile" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="6" required></textarea>
+                            </div>
+                            <button type="submit">Submit</button>
+                        </form>
+                    </div>
+    <footer>
+        <div class="container-2">
+            <div class="contact-info">
+                <p>Phone: +92 3138624722</p>
+                <p>Email: umair.ansari.92@gmail.com</p>
+            </div>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#terms">Terms of Service</a></li>
+                    <li><a href="#privacy">Privacy Policy</a></li>
+                </ul>
+            </nav>
+            <div class="social-links">
+                <!-- Add your social media icons/links here -->
+                <a href="#"><img src="" alt="">Facebook</a>
+                <a href="#"><img src="" alt="">Instagram</a>
+                <a href="#"><img src="" alt="">X</a>
+            </div>
+            <p>&copy; 2024 Ansari's Cattle Farm. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <df-messenger
+      intent="WELCOME"
+      chat-title="Cow-Booking"
+      agent-id="6c6242f3-a040-454e-9560-969aed201c28"
+      language-code="en"
+    ></df-messenger>
+        <script src="script.js"></script>
+    </body>
+    </html>
+    
